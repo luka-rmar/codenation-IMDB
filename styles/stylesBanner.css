@@ -1,0 +1,156 @@
+
+
+.banner {
+    background-image: url(../assets/images/capa-madmax2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 100%;    
+}
+.banner:after {
+    content: "";
+	background: linear-gradient(0deg,rgba(0, 0, 0, 0.6) 0%,	rgba(0, 212, 255, 0) 75%);
+	height: 90vh;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.banner header {
+    width: 100%;
+    max-width: 960px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.banner header .logo {
+    width: 110px;
+    height: 45px;
+}
+
+.banner header .menu {
+    display: flex;
+    align-items: center;
+}
+
+.banner header .menu a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 25px;
+    transition: color 0.2s ease;
+}
+.banner header .menu a:hover{
+    color:#e4bb23;
+}
+.banner header .profile {
+    display: flex;
+    align-items: center;
+}
+
+.banner header .profile .avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.banner header .profile span {
+    color:#fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.banner .box-content {
+    width:100%;
+    max-width: 960px;
+    margin-top: 60px;
+    z-index: 2;
+}
+
+.banner .box-content .information {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .box-content .information h2 {
+    color: #fff;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+    width: 100%;
+    max-width: 960px;
+}
+
+.banner .box-content .information .genre{
+    display: flex;
+}
+
+.banner .box-content .information .genre a {
+    color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: color 0.2s ease;
+}
+
+.banner .box-content .information .genre a:hover{
+	color: #e4bb23;
+}
+
+.banner .box-content .button {
+    background: #e4bb23;
+    padding: 15px 25px;
+    width: 195px;
+    font-size: 1.5rem;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 30px 0 18px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.banner .box-content .button:hover{
+    background: #bc9a1d;
+}
+
+.banner .box-content .button a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 7px;
+    color: #000;
+}
+
+.banner .box-content .button i{
+    font-size: 1.9rem;
+}
+
+.banner .box-content .info-locale{
+    padding-top: 20px;
+}
+.banner .box-content .info-locale p{
+    font-size: 1.4rem;
+    color:#fff;
+    margin-bottom: 14px;
+}
+
+.banner .box-content .info-locale p:last-child{
+    color: #bc9a1d;
+}
